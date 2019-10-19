@@ -1,12 +1,21 @@
-import React, { Fragment } from 'react'
+import React from 'react'
+import styled from 'styled-components'
 import NavBar from './NavBar'
 import Content from './Content'
 
+const StyledMain = styled.main`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 100vw;
+`
+
 const Main = () => (
-  <Fragment>
+  <StyledMain>
     <NavBar />
     <Content />
-  </Fragment>
+  </StyledMain>
 )
 
 export default Main

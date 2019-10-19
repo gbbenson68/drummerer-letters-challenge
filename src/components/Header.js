@@ -2,11 +2,18 @@ import React from 'react'
 import styled from 'styled-components'
 
 const StyledHeader = styled.header`
-  min-height: 4vh;
+  border-bottom: 1px solid white;
+  max-height: 12vh;
+  min-width: 100vw;
+`
+
+const H1 = styled.h1`
+  font-size: 3rem;
 `
 
 const Header = () => (
   <StyledHeader>
+    <H1>Benny Greb Letters Challenge</H1>
   </StyledHeader>
 )
 

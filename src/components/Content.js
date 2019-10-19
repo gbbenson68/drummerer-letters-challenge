@@ -2,11 +2,13 @@ import React from 'react'
 import styled from 'styled-components'
 
 const ContentDiv = styled.div`
-  max-height: 92vh;
+  min-height: 83vh;
+  min-width: 85vw;
 `
 
 const Content = () => (
   <ContentDiv>
+    This is the main content.
   </ContentDiv>
 )
 
