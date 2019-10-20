@@ -11,7 +11,7 @@ const H1 = styled.h1`
   font-size: 3rem;
 `
 
-const Header = () => (
+const Header = (props) => (
   <StyledHeader>
     <H1>Benny Greb Letters Challenge</H1>
   </StyledHeader>

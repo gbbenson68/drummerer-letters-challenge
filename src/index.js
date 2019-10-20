@@ -2,15 +2,18 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { HashRouter } from 'react-router-dom'
 import { Provider } from 'react-redux'
+import { SnackbarProvider } from 'notistack'
 import App from './App'
 import * as serviceWorker from './serviceWorker'
 import store from './store'
 
 const appJSX = (
   <Provider store={store}>
-    <HashRouter>
-      <App />
-    </HashRouter>
+    <SnackbarProvider maxSnack={3}>
+      <HashRouter>
+        <App />
+      </HashRouter>
+    </SnackbarProvider>
   </Provider>
 )
 

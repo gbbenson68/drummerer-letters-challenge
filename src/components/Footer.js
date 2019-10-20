@@ -10,7 +10,7 @@ const StyledFooter = styled.footer`
   padding: 0.4rem 0.4rem 0 0.4rem;
 `
 
-const Footer = () => (
+const Footer = (props) => (
   <StyledFooter>
     © 2019  - Guy B. Benson
   </StyledFooter>

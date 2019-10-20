@@ -11,7 +11,7 @@ const StyledMain = styled.main`
   max-width: 100vw;
 `
 
-const Main = () => (
+const Main = (props) => (
   <StyledMain>
     <NavBar />
     <Content />
