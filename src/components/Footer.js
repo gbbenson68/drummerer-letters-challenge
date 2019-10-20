@@ -6,7 +6,6 @@ const StyledFooter = styled.footer`
   font-size: 0.8rem;
   min-height: 2vh;
   min-width: 100vw;
-  margin-top: 0.2rem;
   padding: 0.4rem 0.4rem 0 0.4rem;
 `
 

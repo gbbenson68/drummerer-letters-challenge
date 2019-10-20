@@ -1,13 +1,13 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import { Editor } from 'react-abc'
 
 const id = 'a-random-id'
 
 const ABCEditor = () => (
-  <div>
-    <textarea defaultValue={'FAce'} id={id} />
+  <Fragment>
+    <textarea defaultValue={"K:perc\ncccc"} id={id} />
     <Editor editArea={id} />
- </div>
+ </Fragment>
 )
 
 export default ABCEditor

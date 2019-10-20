@@ -13,7 +13,6 @@ const ContentDiv = styled.div`
 
 const Content = (props) => (
   <ContentDiv>
-    This is the main content.
     <ABCEditor />
     <ABCMidi />
   </ContentDiv>
