@@ -22,14 +22,12 @@ const AppBody = styled.body`
   color: white;
 `
 
-function App() {
-  return (
-    <AppBody>
-      <Header />
-      <Main />
-      <Footer />
-    </AppBody>
-  )
-}
+const App = () => (
+  <AppBody>
+    <Header />
+    <Main />
+    <Footer />
+  </AppBody>
+)
 
 export default App

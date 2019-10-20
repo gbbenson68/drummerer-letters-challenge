@@ -12,7 +12,7 @@ const StyledFooter = styled.footer`
 
 const Footer = () => (
   <StyledFooter>
-    © Guy B. Benson
+    © 2019  - Guy B. Benson
   </StyledFooter>
 )
 
