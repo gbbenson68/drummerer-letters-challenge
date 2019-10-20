@@ -22,7 +22,7 @@ const AppBody = styled.body`
   color: white;
 `
 
-const App = () => (
+const App = (props) => (
   <AppBody>
     <Header />
     <Main />
