@@ -1,38 +1,171 @@
 // These are Benny Greb's Letters, in ABC format
-export const notation4 = {
-  meter: 'M:4/4',
-  length: 'L:1/16',
-  letters: {
-    A: 'c4',
-    B: 'zc3',
-    C: 'z2c2',
-    D: 'z3c',
-    E: 'cc3',
-    F: 'zcc2',
-    G: 'z2cc',
-    H: 'c3c',
-    I: 'c2c2',
-    J: 'zc2c',
-    K: 'ccc2',
-    L: 'zccc',
-    M: 'c2cc',
-    N: 'cc2c',
-    O: 'cccc',
-    P: 'z4'
+export const letters = [
+  {
+    A: {
+      noteLength: '1/16',
+      notesPerBeat: 4,
+      notes: 'c4'
+    }
+  },
+  {
+    B: {
+      noteLength: '1/16',
+      notesPerBeat: 4,
+      notes: 'zc3'
+    }
+  },
+  {
+    C: {
+      noteLength: '1/16',
+      notesPerBeat: 4,
+      notes: 'z2c2'
+    }
+  },
+  {
+    D: {
+      noteLength: '1/16',
+      notesPerBeat: 4,
+      notes: 'z3c'
+    }
+  },
+  {
+    E: {
+      noteLength: '1/16',
+      notesPerBeat: 4,
+      notes: 'cc3'
+    }
+  },
+  {
+    F: {
+      noteLength: '1/16',
+      notesPerBeat: 4,
+      notes: 'zcc2'
+    }
+  },
+  {
+    G: {
+      noteLength: '1/16',
+      notesPerBeat: 4,
+      notes: 'z2cc'
+    }
+  },
+  {
+    H: {
+      noteLength: '1/16',
+      notesPerBeat: 4,
+      notes: 'c3c'
+    }
+  },
+  {
+    I: {
+      noteLength: '1/16',
+      notesPerBeat: 4,
+      notes: 'c2c2'
+    }
+  },
+  {
+    J: {
+      noteLength: '1/16',
+      notesPerBeat: 4,
+      notes: 'zc2c'
+    }
+  },
+  {
+    K: {
+      noteLength: '1/16',
+      notesPerBeat: 4,
+      notes: 'ccc2'
+    }
+  },
+  {
+    L: {
+      noteLength: '1/16',
+      notesPerBeat: 4,
+      notes: 'zccc'
+    }
+  },
+  {
+    M: {
+      noteLength: '1/16',
+      notesPerBeat: 4,
+      notes: 'c2cc'
+    }
+  },
+  {
+    N: {
+      noteLength: '1/16',
+      notesPerBeat: 4,
+      notes: 'cc2c'
+    }
+  },
+  {
+    O: {
+      noteLength: '1/16',
+      notesPerBeat: 4,
+      notes: 'cccc'
+    }
+  },
+  {
+    P: {
+      noteLength: '1/16',
+      notesPerBeat: 4,
+      notes: 'z4'
+    }
+  },
+  {
+    Q: {
+      noteLength: '1/12',
+      notesPerBeat: 3,
+      notes: 'c3'
+    }
+  },
+  {
+    R: {
+      noteLength: '1/12',
+      notesPerBeat: 3,
+      notes: 'zc2'
+    }
+  },
+  {
+    S: {
+      noteLength: '1/12',
+      notesPerBeat: 3,
+      notes: 'z2c'
+    }
+  },
+  {
+    T: {
+      noteLength: '1/12',
+      notesPerBeat: 3,
+      notes: 'ccz'
+    }
+  },
+  {
+    U: {
+      noteLength: '1/12',
+      notesPerBeat: 3,
+      notes: 'zcc'
+    }
+  },
+  {
+    V: {
+      noteLength: '1/12',
+      notesPerBeat: 3,
+      notes: 'c2c'
+    }
+  },
+  {
+    W: {
+      noteLength: '1/12',
+      notesPerBeat: 3,
+      notes: 'ccc',
+    }
+  },
+  {
+    X: {
+      noteLength: '1/12',
+      notesPerBeat: 3,
+      notes: 'z3'
+    }
   }
-}
-
-export const notation3 = {
-  meter: 'M:12/8',
-  length: 'L:1/8',
-  letters: {
-    Q: 'c3',
-    R: 'zc2',
-    S: 'z2c',
-    T: 'ccz',
-    U: 'zcc',
-    V: 'c2c',
-    W: 'ccc',
-    X: 'z3'
-  }
-}
+]
