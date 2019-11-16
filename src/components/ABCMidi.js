@@ -8,7 +8,7 @@ const MIDIDiv = styled.div`
 
 const ABCMidi = () => (
   <MIDIDiv>
-    <Midi notation={"K:perc\ncccc"} />
+    <Midi notation={"K:perc\nM:4/4\nQ:1/8=60\n[|C2C2C2C2|C2C2C2C2|]"} />
   </MIDIDiv>
 )
 

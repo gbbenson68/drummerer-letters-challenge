@@ -1,8 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import { withSnackbar } from 'notistack'
-import ABCEditor from './ABCEditor'
-import ABCMidi from './ABCMidi'
 
 const ContentDiv = styled.div`
   background: white;
@@ -13,8 +11,7 @@ const ContentDiv = styled.div`
 
 const Content = (props) => (
   <ContentDiv>
-    <ABCEditor />
-    <ABCMidi />
+    Something...
   </ContentDiv>
 )
 
