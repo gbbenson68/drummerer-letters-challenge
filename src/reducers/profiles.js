@@ -1,8 +1,8 @@
 import { create, update, destroy, get, getAll } from '../lib/profileServices.js'
 
-const initState = {
+const initProfState = {
   profile: {
-    numBeats: 0,
+    numMeasures: 0,
     beatsPerMeasure: 0
   }
 }
@@ -25,7 +25,8 @@ export const remProfile = (id) => ({type: PROFILE_REMOVE, payload: id})
 export const loadProfile = (profile) => ({type: PROFILE_LOAD, payload: profile})
 export const loadAllProfiles = (allProfiles) => ({type: PROFILES_LOADALL, payload: allProfiles})
 
-export default (state = initState, action) => {
+// The reducer
+export default (state = initProfState, action) => {
   switch (action.type) {
     case ACTIVE_NUMBEATS:
     case ACTIVE_BEATS_MEAS:
