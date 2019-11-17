@@ -1,13 +1,11 @@
-import { createStore, applyMiddleware } from 'redux'
+import { createStore, applyMiddleware, combineReducers } from 'redux'
 import { composeWithDevTools } from 'redux-devtools-extension'
 import thunk from 'redux-thunk'
-// TODO - create reducers for application
+import profileReducer from './reducers/profiles.js'
 
-// TODO - Add reducers to below to combine
-// const reducer = combineReducers()
-
-// Create emptry reducer for now.
-const reducer = () => {}
+const reducer = combineReducers({
+  profile: profileReducer
+})
 
 const store = createStore(
   reducer,
